@@ -1,0 +1,134 @@
+body {
+    background-image: url(../img/dashboard.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    margin: 0; /* Ensure no default margins */
+    position: relative; /* Add relative positioning to the body */
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+  
+.full-height {
+    max-height: 100vh;
+    height: 100vh;
+    overflow: hidden; /* Ensure content doesn't overflow */
+    position: relative; /* Add relative positioning */
+}
+
+.slanting-box {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%; /* Adjust width as needed */
+    height: 100%;
+    background-color: rgba(50, 57, 98, 0.8); /* Adjust color and opacity as needed */
+    clip-path: polygon(0 0, 100% 0,  100% 0, 0 0);
+    z-index: 1; /* Ensure the slanting box is above other content */
+}
+
+table{
+    width: 100%;
+    padding-top: 5px;
+    
+}
+.heading-text{
+    color: white;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 63px;
+    margin-top: 15%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.sub-text2{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+.register-btn{
+    background-color: rgba(240, 248, 255, 0.589);
+    color: #345cc4;
+}
+
+.navbar {
+    background-color: rgba(50, 57, 98, 0.8); /* #323962 at 80% opacity */
+    overflow: hidden;
+    position : relative ;
+    z-index : 2;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+.logo-container {
+    text-align: left;
+}
+
+.logo-image {
+    width: 100px; 
+    height: auto;
+    margin-top: 5px; 
+    padding-left: 20px; 
+}
+
+
+.dehr-logo{
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-left: 20px;
+    animation: transitionIn-Y-over 0.5s;
+}
+
+.dehr-logo-sub{
+    color: rgba(255, 255, 255, 0.733);
+    font-size: 12px;
+
+}
+
+
+
+.nav-item{
+    color: rgba(255, 255, 255, 0.671);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    animation: transitionIn-Y-over 0.5s;
+}
+
+.nav-item:hover{
+    color: #f0f0f0;
+
+}
+
+.footer-hashen{
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    font-size: 13px;
+    animation: transitionIn-Y-over 0.5s;
+}
